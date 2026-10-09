@@ -1,0 +1,83 @@
+{
+  "restaurant": {
+    "name": "Bite & Delight",
+    "currency": "R",
+    "deliveryFee": 25
+  },
+  "categories": [
+    "All",
+    "Burgers",
+    "Pizza",
+    "Healthy",
+    "Desserts",
+    "Drinks"
+  ],
+  "foods": [
+    {
+      "id": 1,
+      "name": "Classic Beef Burger",
+      "category": "Burgers",
+      "description": "Juicy beef, fresh lettuce and house sauce.",
+      "price": 89,
+      "rating": 4.8,
+      "emoji": "🍔",
+      "color": "#FCE7D2",
+      "popular": true
+    },
+    {
+      "id": 2,
+      "name": "Double Cheese Burger",
+      "category": "Burgers",
+      "description": "Two beef patties with melted cheddar.",
+      "price": 115,
+      "rating": 4.9,
+      "emoji": "🍔",
+      "color": "#F9DDBD",
+      "popular": true
+    },
+    {
+      "id": 3,
+      "name": "Margherita Pizza",
+      "category": "Pizza",
+      "description": "Tomato, mozzarella and fresh basil.",
+      "price": 99,
+      "rating": 4.7,
+      "emoji": "🍕",
+      "color": "#FBE5CB",
+      "popular": true
+    },
+    {
+      "id": 4,
+      "name": "Garden Salad",
+      "category": "Healthy",
+      "description": "Fresh greens, tomatoes and avocado.",
+      "price": 75,
+      "rating": 4.6,
+      "emoji": "🥗",
+      "color": "#DDEED7",
+      "popular": false
+    },
+    {
+      "id": 5,
+      "name": "Chocolate Cake",
+      "category": "Desserts",
+      "description": "Rich chocolate cake with creamy icing.",
+      "price": 49,
+      "rating": 4.9,
+      "emoji": "🍰",
+      "color": "#F3DFDA",
+      "popular": true
+    },
+    {
+      "id": 6,
+      "name": "Fresh Lemonade",
+      "category": "Drinks",
+      "description": "Freshly squeezed lemon with mint.",
+      "price": 29,
+      "rating": 4.5,
+      "emoji": "🍋",
+      "color": "#F7F0C7",
+      "popular": false
+    }
+  ]
+}

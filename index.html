@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bite & Delight | Food Ordering</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a href="#" class="logo">🍽️ Bite<span>&</span>Delight</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#menu">Our Menu</a>
+    </nav>
+    <button class="cart-button" id="cart-toggle">
+      🛒 Cart <span id="cart-count">0</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">FRESH • TASTY • DELIVERED</span>
+        <h1>Good food.<br>Good mood.</h1>
+        <p>Discover your favourites, made fresh and delivered to your door.</p>
+        <a class="primary-button" href="#menu">Explore Menu →</a>
+      </div>
+      <div class="hero-art">🍔🍕🥗</div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">MADE WITH LOVE</span>
+          <h2>Explore our menu</h2>
+          <p>Find something delicious for every craving.</p>
+        </div>
+      </div>
+
+      <input
+        type="search"
+        id="search"
+        placeholder="🔎 Search for your favourite food..."
+        aria-label="Search food"
+      >
+
+      <div class="categories" id="categories"></div>
+      <div class="food-grid" id="food-grid">
+        <p>Loading delicious food...</p>
+      </div>
+    </section>
+
+    <section class="cart-section" id="cart-section" hidden>
+      <div class="section-heading">
+        <h2>Your basket</h2>
+        <button id="close-cart" class="text-button">Continue shopping</button>
+      </div>
+
+      <div id="cart-items"></div>
+      <div id="cart-summary"></div>
+      <button id="checkout" class="primary-button full-width">
+        Proceed to checkout
+      </button>
+      <p id="checkout-message" role="status"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Bite & Delight · Made for food lovers ❤️</p>
+  </footer>
+</body>
+</html>
